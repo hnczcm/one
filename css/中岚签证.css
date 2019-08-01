@@ -1,0 +1,277 @@
+/*
+* @Author: hp
+* @Date:   2019-07-30 18:31:00
+* @Last Modified by:   hp
+* @Last Modified time: 2019-08-01 11:05:10
+*/
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.msw_nav{
+	background-color: white;
+	border-bottom: 2px solid #0ba1e4;
+	padding: 15px 0;
+}
+.msw_nav.navbar{
+	// position:fixed;
+	// top:0;
+	
+}
+.msw_nav .navbar-brand{
+	padding: 0px 15px;
+}
+.msw_nav .msw_ul{
+	font-size: 18px;
+}
+.msw_nav .navbar-nav>li>a:hover{
+	color: #0ba1e4;
+}
+.msw_nav .navbar-nav>li{
+	position: relative;
+}
+.msw_nav .navbar-nav>li.selected::after{
+	content: '';
+	width: 20px;
+	height: 1px;
+	background: #0ba1e4;
+	position: absolute;
+	left: 50%;
+	margin-left: -10px;
+}
+.msw_nav .navbar-nav>li.selected a{
+	color: #0ba1e4;
+}
+.top{
+	position: fixed;
+	right: 10px;
+	bottom: 100px;
+	border: 1px solid #0ba1e4;
+}
+.top span{
+	font-size: 30px;
+	color: #0ba1e4;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+@media (max-width: 767px) {
+	.msw_nav{
+		padding: 0;
+	}
+	.msw_nav .navbar-nav>li.selected::after{
+		content: '';
+		width: 0;
+	}
+	.top{
+		position: fixed;
+		right: 10px;
+		bottom: 10px;
+		border: none;
+		background: white;
+		border-radius: 50%;
+	}
+	.top span{
+		font-size: 30px;
+		color: #333;
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+		display:none;
+	}
+
+}
+.container-fluid.nsw_bb{
+	// background-color: #333;
+}
+.text-center.nsw_cc{
+	font-weight:bold;
+}
+.nsw_bb .nsw_dd{
+	width:70px;
+	border-bottom:2px solid #0ba1e4;
+	margin:20px auto;
+}
+h3.nsw_aa{
+	margin-top:30px;
+}
+.nsw_ee{
+	margin-top:40px;
+}
+.nsw_bb .row h1{
+	color:#0ba1e4;
+}
+.nsw_gg{
+	background:#e1e1e1;
+}
+.nsw_ff{
+	font-weight:bold;
+}
+.nsw_gg .nsw_dd{
+	width:70px;
+	border-bottom:2px solid #0ba1e4;
+	margin:20px auto;
+}
+.nsw_gg .row div{
+	margin-top:25px;
+	// background:white;
+	// padding:0 5px;
+	// box-sizing:border-box;
+}
+.nsw_gg  p{
+	font-size:70px;
+	color:#0ba1e4;
+}
+.nsw_gg .row h2{
+	margin-top:30px;
+	font-weight:bold;
+}
+.nsw_gg .row h4{
+	margin-top:15px;
+}
+.nsw_gg div .row .msw_box:hover{
+	background-color: #0ba1e4;
+	color:white;				
+}
+.nsw_gg div .row .msw_box:hover p{
+	
+	color:white;				
+}
+.nsw_dd{
+	width:70px;
+	border-bottom:2px solid #0ba1e4;
+	margin:20px auto;
+}
+.nsw_hh{
+	margin-top:80px;
+}
+.nsw_ii{
+	background:#fafafa;
+	border:1px solid #c1c1c1;
+	transition: all 0.4s;
+}
+.nsw_hh .container .row h3{
+	color:#0ba1e4;
+	margin-top:30px;
+	// border-bottom:1px solid #c1c1c1;
+}
+.nsw_hh .container .row h4.nsw_jj{
+	border-bottom:1px solid #c1c1c1;
+	margin-top:15px;
+} 
+.nsw_hh .container .row h4{
+	margin-top:30px;
+}
+.nsw_hh .container .row h4.nsw_kk{
+	padding:8px 0;
+	margin:30px auto;
+	width:110px;
+	color:#0ba1e4;
+	border:1px solid #0ba1e4;
+	border-radius:4px;
+}
+.nsw_hh .container .row .nsw_ii:hover{
+	background:#0ba1e4;
+	color:white;
+	transform: scale(1.2);
+}
+.nsw_hh .container .row .nsw_ii:hover h3{
+	color:white;
+}
+.nsw_hh .container .row .nsw_ii:hover .nsw_kk{
+	color:white;
+	border:1px solid white;
+}
+.nsw_ll{
+	width:270px;
+	padding:8px 0;
+	margin:40px auto;
+	color:#0ba1e4;
+	border:1px solid #0ba1e4;
+	border-radius:8px;
+}
+.nsw_oo{
+	background:#0ba1e4;
+	color:white;
+}
+.nsw_oo .nsw_pp{
+	border-bottom:1px solid white;
+	width:420px
+}
+.nsw_qq{
+	width:270px;
+	padding:8px 0;
+	margin:40px auto;
+	color:white;
+	border:1px solid white;
+	border-radius:8px;
+}
+.nsw_rr{
+	height:300px;
+	background:black;
+}
+.nsw_uu{
+
+
+	background: #f5f5f5;
+}
+.nsw_uu .thumbnail{
+	background: #f5f5f5;
+	position:relative;
+	border: 1px solid #34a263;
+	border-radius: 4px;
+}
+.nsw_uu .thumbnail img{
+	position: absolute;
+	top:-62px;
+	left:50%;
+	margin-left:-50px;
+}
+.nsw_uu .thumbnail h4{
+	margin-top: 60px;
+}
+.nsw_uu .thumbnail h5{
+	background: #aaa;
+	color:white;
+	width:80px;
+}
+.nsw_uu h1{
+	width: 70px;
+	height: 70px;
+	color:#34a263;
+	border: 1px solid #34a263;
+	border-radius: 50%;
+	line-height: 73px;
+	margin: 0 auto;
+}
+.nsw_ww .row img{
+	width: 130px;
+	height: 115px;
+	background-size: 100%;
+	margin-top:26px;
+}
+.nsw_ww .row h3{
+	color:#0ba1e4;
+}
+.nsw_ww .nsw_xx{
+	color:#0ba1e4;
+}
+.nsw_yy .container .col-md-3 img{
+	color:#333;
+	border:1px solid #778899;
+	margin-top:20px;
+	margin-bottom: 10px;
+	filter: grayscale(100%);
+}
+.nsw_yy .container .col-md-3 img:hover{
+	border:1px solid #0ba1e4;
+	filter: grayscale(0%);
+	background: white;
+}
